@@ -15,11 +15,11 @@ export default function Header() {
               John Smith Realty
             </Link>
             
-            <ul className="hidden md:flex items-center space-x-8 lg:space-x-10">
+            <ul className="hidden md:flex items-center space-x-2 lg:space-x-4">
               <li>
                 <Link
                   href="/"
-                  className="text-gray-700 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors px-3 py-2"
                 >
                   Home
                 </Link>
@@ -27,7 +27,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-700 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors px-3 py-2"
                 >
                   About
                 </Link>
@@ -35,7 +35,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/market-insights"
-                  className="text-gray-700 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors px-3 py-2"
                 >
                   Market Insights
                 </Link>
@@ -43,7 +43,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/areas"
-                  className="text-gray-700 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors px-3 py-2"
                 >
                   Areas
                 </Link>
@@ -51,7 +51,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-700 hover:text-primary transition-colors"
+                  className="text-gray-700 hover:text-primary transition-colors px-3 py-2"
                 >
                   Contact
                 </Link>
