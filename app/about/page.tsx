@@ -16,51 +16,111 @@ export default function About() {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-              <div>
-                <h2 className="text-3xl font-bold mb-6">Experience Through Every Market</h2>
-                <p className="text-gray-700 mb-4">
-                  I started my real estate career in 2004, just before the market peaked. I've navigated:
-                </p>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="font-bold text-primary mr-2">2004-2006:</span>
-                    The boom years - learned what drives irrational exuberance
-                  </li>
-                  <li className="flex items-start">
-                    <span className="font-bold text-primary mr-2">2008-2012:</span>
-                    The crash and recovery - mastered distressed sales and tough negotiations
-                  </li>
-                  <li className="flex items-start">
-                    <span className="font-bold text-primary mr-2">2013-2019:</span>
-                    The steady climb - perfected multiple offer strategies
-                  </li>
-                  <li className="flex items-start">
-                    <span className="font-bold text-primary mr-2">2020-Present:</span>
-                    Pandemic boom to rate shock - adapted to rapid market shifts
-                  </li>
-                </ul>
+          <div className="max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-12 mb-16">
+              <div className="md:col-span-1">
+                <div className="sticky top-24">
+                  <div className="bg-gray-300 rounded-lg aspect-[3/4] mb-6 flex items-center justify-center">
+                    <p className="text-gray-500 text-center px-4">Professional Headshot</p>
+                  </div>
+                  <div className="bg-white shadow-lg rounded-lg p-6">
+                    <h3 className="font-bold text-lg mb-4">Contact Information</h3>
+                    <div className="space-y-3 text-sm">
+                      <a href="tel:305-XXX-XXXX" className="flex items-center text-gray-700 hover:text-primary">
+                        <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        (305) XXX-XXXX
+                      </a>
+                      <a href="mailto:john@smithrealty.com" className="flex items-center text-gray-700 hover:text-primary">
+                        <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        john@smithrealty.com
+                      </a>
+                      <div className="pt-3 border-t">
+                        <p className="text-gray-600">License #: XX-XXXXXXX</p>
+                        <p className="text-gray-600">[Brokerage Name]</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="bg-gray-100 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">By The Numbers</h3>
-                <div className="space-y-4">
-                  <div>
+              
+              <div className="md:col-span-2">
+                <h2 className="text-3xl font-bold mb-6">Experience Through Every Market</h2>
+                <div className="prose prose-lg text-gray-700 mb-8">
+                  <p className="mb-4">
+                    I began my real estate career in 2004, riding the wave of one of the hottest 
+                    markets in history. But it was the crash of 2008 and the difficult years that 
+                    followed that truly shaped me as an agent.
+                  </p>
+                  <p className="mb-4">
+                    <strong>While others left the industry, I stayed and learned.</strong> From 2008 
+                    to 2012, I specialized in short sales, foreclosures, and helping families navigate 
+                    the worst housing crisis in generations. I negotiated with banks, fought for my 
+                    clients, and found creative solutions when traditional methods failed.
+                  </p>
+                  <p className="mb-4">
+                    Those challenging years taught me invaluable lessons: how to price aggressively 
+                    in a declining market, how to market properties when nothing was selling, and most 
+                    importantly, how to tell clients the truth they needed to hear, not what they 
+                    wanted to hear.
+                  </p>
+                  <p>
+                    Today's market is shifting again. Interest rates have reset buyer expectations. 
+                    Inventory is building. The agents who will succeed are those who've navigated 
+                    tough markets before. That's exactly what I bring to every listing.
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                  <div className="text-center">
                     <p className="text-3xl font-bold text-primary">500+</p>
                     <p className="text-gray-600">Homes Sold</p>
                   </div>
-                  <div>
+                  <div className="text-center">
                     <p className="text-3xl font-bold text-primary">$250M+</p>
-                    <p className="text-gray-600">In Sales Volume</p>
+                    <p className="text-gray-600">Sales Volume</p>
                   </div>
-                  <div>
+                  <div className="text-center">
                     <p className="text-3xl font-bold text-primary">20</p>
-                    <p className="text-gray-600">Years of Experience</p>
+                    <p className="text-gray-600">Years Experience</p>
                   </div>
-                  <div>
-                    <p className="text-3xl font-bold text-primary">28</p>
-                    <p className="text-gray-600">Average Days on Market</p>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-primary">100+</p>
+                    <p className="text-gray-600">Short Sales Closed</p>
                   </div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-8 mb-8">
+                  <h3 className="text-2xl font-bold mb-4">What Sets Me Apart</h3>
+                  <ul className="space-y-3">
+                    <li className="flex items-start">
+                      <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span><strong>Crisis-Tested:</strong> Successfully closed deals through the 2008 crash, COVID-19, and today's rate shock</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span><strong>Data-Driven:</strong> I analyze comparable sales, market trends, and buyer behavior to price accurately</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span><strong>Straight Shooter:</strong> I'll tell you what your home will actually sell for, not what you want to hear</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span><strong>Full Service:</strong> From pricing strategy to closing, I handle every detail personally</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
