@@ -200,6 +200,54 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-20 md:py-24 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Current Market Stats</h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">Coral Gables</h3>
+              <p className="text-3xl font-bold text-primary mb-2">$1.2M</p>
+              <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
+              <div className="border-t pt-4">
+                <p className="text-2xl font-bold text-accent">32</p>
+                <p className="text-sm text-gray-600">Avg Days on Market</p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">Brickell</h3>
+              <p className="text-3xl font-bold text-primary mb-2">$625K</p>
+              <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
+              <div className="border-t pt-4">
+                <p className="text-2xl font-bold text-accent">45</p>
+                <p className="text-sm text-gray-600">Avg Days on Market</p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">Aventura</h3>
+              <p className="text-3xl font-bold text-primary mb-2">$485K</p>
+              <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
+              <div className="border-t pt-4">
+                <p className="text-2xl font-bold text-accent">38</p>
+                <p className="text-sm text-gray-600">Avg Days on Market</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-accent-light rounded-lg p-8 max-w-3xl mx-auto text-center">
+            <h3 className="text-2xl font-bold mb-4">The Truth About Today's Market</h3>
+            <p className="text-lg text-gray-700 mb-4">
+              Homes priced right sell in <span className="font-bold text-primary">21 days</span> on average.
+              Overpriced homes sit for <span className="font-bold text-red-600">90+ days</span> before price reductions.
+            </p>
+            <p className="text-gray-600">
+              *Data based on MLS statistics for Miami-Dade County, Q4 2024
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-primary text-white py-20 md:py-24" id="contact">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">

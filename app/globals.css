@@ -2,12 +2,15 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-  --primary: #1a365d;
-  --primary-dark: #0f2847;
-  --accent: #2c5282;
-  --muted: #718096;
+  --foreground: #0f172a;
+  --primary: #1e3a5f;
+  --primary-dark: #0f1f3a;
+  --accent: #d4af37;
+  --accent-light: #f4e5b9;
+  --muted: #64748b;
   --border: #e2e8f0;
+  --navy: #1e3a5f;
+  --gold: #d4af37;
 }
 
 @theme inline {
@@ -16,8 +19,11 @@
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
   --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --color-navy: var(--navy);
+  --color-gold: var(--gold);
 }
 
 * {
@@ -163,4 +169,20 @@ a.button {
     padding: 1rem 2.5rem;
     font-size: 1.125rem;
   }
+}
+
+/* Scroll animations */
+.animate-in {
+  opacity: 1 !important;
+  transform: translate(0) !important;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
