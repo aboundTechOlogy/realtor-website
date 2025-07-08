@@ -10,7 +10,7 @@ export default function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-primary">
+          <Link href="/" className="text-2xl md:text-3xl font-bold text-primary">
             John Smith Realty
           </Link>
           
@@ -42,11 +42,11 @@ export default function Header() {
             </svg>
           </button>
 
-          <ul className="hidden md:flex space-x-8">
+          <ul className="hidden md:flex items-center space-x-8 lg:space-x-12">
             <li>
               <Link
                 href="/"
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 hover:text-primary transition-colors text-lg"
               >
                 Home
               </Link>
@@ -54,7 +54,7 @@ export default function Header() {
             <li>
               <Link
                 href="/about"
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 hover:text-primary transition-colors text-lg"
               >
                 About
               </Link>
@@ -62,7 +62,7 @@ export default function Header() {
             <li>
               <Link
                 href="/market-insights"
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 hover:text-primary transition-colors text-lg"
               >
                 Market Insights
               </Link>
@@ -70,7 +70,7 @@ export default function Header() {
             <li>
               <Link
                 href="/market-insights#consultation"
-                className="bg-primary text-white px-4 py-2 rounded hover:bg-primary-dark transition-colors"
+                className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors text-lg font-medium"
               >
                 Schedule Consultation
               </Link>
