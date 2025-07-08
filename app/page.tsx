@@ -27,13 +27,13 @@ export default function Home() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-20">
+      <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-24 md:py-32">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8">
               20 Years of Navigating Every Market Condition
             </h1>
-            <p className="text-xl text-gray-700 mb-8">
+            <p className="text-xl md:text-2xl text-gray-700 mb-10">
               From the 2008 crash to today's shifting market, I've helped sellers succeed when others couldn't
             </p>
             <Link
@@ -46,42 +46,42 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-20 md:py-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">My Expertise</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white shadow-lg rounded-lg p-8 text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">My Expertise</h2>
+          <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+            <div className="bg-white shadow-lg rounded-lg p-10 text-center hover:shadow-xl transition-shadow">
+              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Market Analysis</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold mb-4">Market Analysis</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Data-driven insights from two decades of market cycles. I know when to hold and when to adjust.
               </p>
             </div>
 
-            <div className="bg-white shadow-lg rounded-lg p-8 text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="bg-white shadow-lg rounded-lg p-10 text-center hover:shadow-xl transition-shadow">
+              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Strategic Pricing</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold mb-4">Strategic Pricing</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Pricing ahead of the market, not behind it. I position your home to sell, not to sit.
               </p>
             </div>
 
-            <div className="bg-white shadow-lg rounded-lg p-8 text-center">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="bg-white shadow-lg rounded-lg p-10 text-center hover:shadow-xl transition-shadow">
+              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Proven Marketing</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold mb-4">Proven Marketing</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Targeted strategies that work in any market. Maximum exposure, qualified buyers only.
               </p>
             </div>
@@ -89,11 +89,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-16">
+      <section className="bg-gray-50 py-20 md:py-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">What My Clients Say</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-lg shadow">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">What My Clients Say</h2>
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+            <div className="bg-white p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-600 italic mb-4">
                 "John told us the truth about our pricing when other agents just wanted the listing. 
                 We adjusted, and sold in 3 weeks. His honesty saved us months of frustration."
@@ -101,7 +101,7 @@ export default function Home() {
               <p className="font-semibold">- Sarah & Mike Thompson</p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow">
+            <div className="bg-white p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-600 italic mb-4">
                 "After 6 months with another agent and no offers, John repositioned our home and 
                 had multiple offers in 2 weeks. Experience matters."
@@ -109,7 +109,7 @@ export default function Home() {
               <p className="font-semibold">- Robert Chen</p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow">
+            <div className="bg-white p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-600 italic mb-4">
                 "John navigated us through a declining market with skill. His market knowledge from 
                 the 2008 downturn was invaluable. We sold for more than expected."
@@ -117,7 +117,7 @@ export default function Home() {
               <p className="font-semibold">- Maria Rodriguez</p>
             </div>
 
-            <div className="bg-white p-8 rounded-lg shadow">
+            <div className="bg-white p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <p className="text-gray-600 italic mb-4">
                 "No BS, just results. John told us exactly what needed to happen to sell our home, 
                 and it worked. Refreshing to work with someone so straightforward."
@@ -128,10 +128,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-20 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8">Why Your Home Didn't Sell</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Why Your Home Didn't Sell</h2>
             <div className="bg-white shadow-lg rounded-lg p-8">
               <p className="text-lg text-gray-700 mb-6">
                 If your home has been on the market without selling, here's the truth:
@@ -178,10 +178,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-primary text-white py-16" id="contact">
+      <section className="bg-primary text-white py-20 md:py-24" id="contact">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8">Get Your Free Market Reality Check</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Get Your Free Market Reality Check</h2>
             <p className="text-center text-lg mb-8">
               No sugar-coating. Just honest analysis and a clear path to selling your home.
             </p>
