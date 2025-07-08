@@ -27,21 +27,43 @@ export default function Home() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-gray-50 to-gray-100 py-24 md:py-32">
-        <div className="container mx-auto px-4">
+      <section 
+        className="relative min-h-[600px] md:min-h-[700px] flex items-center py-24 md:py-32"
+        style={{
+          // Miami Skyline option:
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+          // Luxury Home option (uncomment to use):
+          // backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8">
+            <p className="text-white/90 text-lg md:text-xl mb-4">
+              Licensed FL Realtor | [Brokerage Name]
+            </p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8">
               20 Years of Navigating Every Market Condition
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-10">
+            <p className="text-xl md:text-2xl text-white/90 mb-10">
               From the 2008 crash to today's shifting market, I've helped sellers succeed when others couldn't
             </p>
-            <Link
-              href="/market-insights#consultation"
-              className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors"
-            >
-              Get Your Free Market Reality Check
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/market-insights#consultation"
+                className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors"
+              >
+                Get Your Free Market Reality Check
+              </Link>
+              <Link
+                href="/listings"
+                className="inline-block bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                View Office Listings
+              </Link>
+            </div>
           </div>
         </div>
       </section>
