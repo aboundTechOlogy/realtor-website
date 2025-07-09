@@ -9,13 +9,12 @@ export default function Header() {
   return (
     <header className="bg-white shadow sticky top-0 z-50 border-b border-gray-100">
       <nav className="container mx-auto px-4 py-3">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center relative">
           <Link href="/" className="text-2xl md:text-3xl font-bold text-primary">
             John Smith Realty
           </Link>
           
-          <div className="flex items-center space-x-8">
-            <ul className="hidden md:flex items-center gap-6">
+          <ul className="hidden md:flex items-center gap-6 absolute left-1/2 transform -translate-x-1/2">
               <li>
                 <Link
                   href="/"
@@ -58,6 +57,7 @@ export default function Header() {
               </li>
             </ul>
             
+          <div className="flex items-center space-x-4">
             <a
               href="tel:305-XXX-XXXX"
               className="hidden md:flex items-center text-primary font-semibold hover:text-primary-dark transition-colors"
