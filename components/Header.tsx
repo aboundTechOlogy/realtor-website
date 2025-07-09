@@ -15,7 +15,7 @@ export default function Header() {
           </Link>
           
           <div className="flex items-center space-x-8">
-            <ul className="hidden md:flex items-center space-x-6">
+            <ul className="hidden md:flex items-center gap-6">
               <li>
                 <Link
                   href="/"
