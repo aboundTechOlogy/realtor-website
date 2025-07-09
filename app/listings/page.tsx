@@ -66,7 +66,7 @@ export default function Listings() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Featured Properties</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {featuredListings.map((listing) => (
               <div key={listing.id} className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="relative">
@@ -99,7 +99,7 @@ export default function Listings() {
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Recent Sales Success</h2>
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-10 mb-12">
             {recentSales.map((sale, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow">
                 <p className="text-lg font-semibold mb-2">{sale.address}</p>

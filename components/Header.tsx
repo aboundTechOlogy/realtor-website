@@ -15,7 +15,7 @@ export default function Header() {
               John Smith Realty
             </Link>
             
-            <ul className="hidden md:flex items-center space-x-2 lg:space-x-4">
+            <ul className="hidden md:flex items-center space-x-6">
               <li>
                 <Link
                   href="/"

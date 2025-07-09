@@ -158,7 +158,7 @@ export default function Home() {
               <p className="text-lg text-gray-700 mb-6">
                 If your home has been on the market without selling, here's the truth:
               </p>
-              <ul className="space-y-4">
+              <ul className="space-y-6">
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -203,7 +203,7 @@ export default function Home() {
       <section className="py-20 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Current Market Stats</h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
+          <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto mb-12">
             <div className="bg-white rounded-lg shadow-lg p-8 text-center">
               <h3 className="text-xl font-semibold text-gray-700 mb-2">Coral Gables</h3>
               <p className="text-3xl font-bold text-primary mb-2">$1.2M</p>

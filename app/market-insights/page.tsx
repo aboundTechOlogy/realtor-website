@@ -46,7 +46,7 @@ export default function MarketInsights() {
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                   <div>
                     <h3 className="text-xl font-semibold mb-4">What's Happening Now</h3>
-                    <ul className="space-y-3 text-gray-700">
+                    <ul className="space-y-5 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
                         Inventory up 35% year-over-year
@@ -67,7 +67,7 @@ export default function MarketInsights() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-4">What This Means for Sellers</h3>
-                    <ul className="space-y-3 text-gray-700">
+                    <ul className="space-y-5 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
                         Competition is increasing rapidly
@@ -98,7 +98,7 @@ export default function MarketInsights() {
 
             <div className="mb-16">
               <h2 className="text-3xl font-bold mb-8">Why Homes Aren't Selling</h2>
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <div className="bg-white shadow-lg rounded-lg p-8">
                   <h3 className="text-xl font-semibold mb-4">1. Unrealistic Pricing</h3>
                   <p className="text-gray-700 mb-4">

@@ -74,7 +74,7 @@ export default function About() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
                   <div className="text-center">
                     <p className="text-3xl font-bold text-primary">500+</p>
                     <p className="text-gray-600">Homes Sold</p>
@@ -95,7 +95,7 @@ export default function About() {
 
                 <div className="bg-gray-50 rounded-lg p-8 mb-8">
                   <h3 className="text-2xl font-bold mb-4">What Sets Me Apart</h3>
-                  <ul className="space-y-3">
+                  <ul className="space-y-5">
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-primary mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -130,7 +130,7 @@ export default function About() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white shadow-lg rounded-lg p-8">
                   <h3 className="text-xl font-bold mb-4">What I Do</h3>
-                  <ul className="space-y-3 text-gray-700">
+                  <ul className="space-y-5 text-gray-700">
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-primary mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -159,7 +159,7 @@ export default function About() {
                 </div>
                 <div className="bg-white shadow-lg rounded-lg p-8">
                   <h3 className="text-xl font-bold mb-4">What I Don't Do</h3>
-                  <ul className="space-y-3 text-gray-700">
+                  <ul className="space-y-5 text-gray-700">
                     <li className="flex items-start">
                       <svg className="w-5 h-5 text-red-500 mt-1 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
