@@ -5,7 +5,6 @@ import SearchSection from "@/components/SearchSection";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { useState } from "react";
 
-// Force deployment update
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -18,6 +17,9 @@ export default function Home() {
     { href: "/listings", label: "LISTINGS" },
     { href: "/contact", label: "CONTACT" },
   ];
+
+  // Debug: Log nav items to console
+  console.log("Navigation items:", navItems);
 
   return (
     <>
