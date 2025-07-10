@@ -1,7 +1,7 @@
 import { mockProperties } from '@/data/mockProperties';
 
 // For now, return mock data
-export const searchProperties = async (filters) => {
+export const searchProperties = async (filters: any) => {
   // TODO: Replace with Bridge Interactive API call
   
   // Simulate API delay
@@ -50,7 +50,7 @@ export const bridgeAPIConfig = {
 };
 
 // Future Bridge API integration
-export const bridgeAPISearch = async (params) => {
+export const bridgeAPISearch = async (params: any) => {
   // TODO: Implement Bridge Interactive API search
   // const response = await fetch(`${bridgeAPIConfig.baseURL}/listings`, {
   //   headers: {
