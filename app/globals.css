@@ -135,16 +135,7 @@ section {
   }
 }
 
-/* Card spacing */
-.card {
-  padding: 2rem;
-}
-
-@media (min-width: 768px) {
-  .card {
-    padding: 2.5rem;
-  }
-}
+/* Card spacing - removed to allow Tailwind utilities to work */
 
 /* Form spacing */
 form input,
@@ -155,20 +146,7 @@ form select {
   font-size: 1rem;
 }
 
-/* Button spacing */
-button,
-a.button {
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  button,
-  a.button {
-    padding: 1rem 2.5rem;
-    font-size: 1.125rem;
-  }
-}
+/* Button spacing - removed to allow Tailwind utilities to work */
 
 /* Scroll animations */
 .animate-in {
