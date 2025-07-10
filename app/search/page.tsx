@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import SearchBar from "@/components/SearchBar";
 import SearchResults from "@/components/SearchResults";
@@ -8,7 +8,7 @@ import PropertyMap from "@/components/PropertyMap";
 import { searchProperties } from "@/services/propertyService";
 import TopHeader from "@/components/TopHeader";
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const [properties, setProperties] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -144,5 +144,20 @@ export default function SearchPage() {
         </div>
       </div>
     </>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <i className="fas fa-spinner fa-spin text-4xl text-accent mb-4"></i>
+          <p className="text-lg text-gray-600">Loading properties...</p>
+        </div>
+      </div>
+    }>
+      <SearchContent />
+    </Suspense>
   );
 }
