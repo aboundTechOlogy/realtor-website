@@ -18,8 +18,6 @@ export default function Home() {
     { href: "/contact", label: "CONTACT" },
   ];
 
-  // Debug: Log nav items to console
-  console.log("Navigation items:", navItems);
 
   return (
     <>
@@ -48,7 +46,7 @@ export default function Home() {
                 John Smith Realty
               </h1>
               <p className="text-xl text-gray-200">
-                Your Trusted South Florida Real Estate Expert
+                Your Trusted South Florida Real Estate Expert - Updated
               </p>
             </div>
             
@@ -413,4 +411,4 @@ export default function Home() {
       </section>
     </>
   );
-}// Force rebuild
+}
