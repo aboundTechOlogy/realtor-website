@@ -4,5 +4,6 @@
     "app/**/*": {
       "maxDuration": 10
     }
-  }
+  },
+  "buildCommand": "rm -rf .next && npm run build"
 }
