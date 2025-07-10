@@ -5,6 +5,7 @@ import SearchSection from "@/components/SearchSection";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { useState } from "react";
 
+// Force deployment update
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
