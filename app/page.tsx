@@ -13,6 +13,7 @@ export default function Home() {
     { href: "/about", label: "ABOUT" },
     { href: "/market-insights", label: "MARKET INSIGHTS" },
     { href: "/areas", label: "AREAS" },
+    { href: "/search", label: "SEARCH" },
     { href: "/listings", label: "LISTINGS" },
     { href: "/contact", label: "CONTACT" },
   ];
