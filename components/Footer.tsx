@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-navy text-white py-16 mt-24">
+    <footer className="bg-primary text-white py-16 mt-24">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
@@ -100,7 +100,7 @@ export default function Footer() {
             </p>
             <Link
               href="/market-insights#consultation"
-              className="inline-block bg-accent text-navy px-8 py-3 rounded hover:bg-accent-light transition-colors font-semibold"
+              className="inline-block bg-white text-primary px-8 py-3 rounded hover:bg-lp2 transition-colors font-semibold"
             >
               Schedule Consultation
             </Link>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import TopHeader from "@/components/TopHeader";
 
 export const metadata: Metadata = {
   title: "John Smith Realty - 20 Years of Market Expertise | South Florida Real Estate",
@@ -129,6 +130,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -136,7 +139,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <div className="flex flex-col min-h-screen">
-          <Header />
+          <TopHeader />
           <main className="flex-grow">
             {children}
           </main>

@@ -19,6 +19,8 @@ export default {
         foreground: "var(--color-foreground)",
         navy: "var(--color-navy)",
         gold: "var(--color-gold)",
+        lp2: "var(--color-lp2)",
+        lp3: "var(--color-lp3)",
       },
     },
   },
