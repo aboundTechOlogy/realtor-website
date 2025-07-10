@@ -154,7 +154,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Why Your Home Didn't Sell</h2>
-            <div className="bg-white shadow-lg rounded-lg p-8">
+            <div className="bg-white shadow-lg rounded-lg p-10">
               <p className="text-lg text-gray-700 mb-6">
                 If your home has been on the market without selling, here's the truth:
               </p>
@@ -204,7 +204,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Current Market Stats</h2>
           <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto mb-12">
-            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <div className="bg-white rounded-lg shadow-lg p-10 text-center">
               <h3 className="text-xl font-semibold text-gray-700 mb-2">Coral Gables</h3>
               <p className="text-3xl font-bold text-primary mb-2">$1.2M</p>
               <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
@@ -214,7 +214,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <div className="bg-white rounded-lg shadow-lg p-10 text-center">
               <h3 className="text-xl font-semibold text-gray-700 mb-2">Brickell</h3>
               <p className="text-3xl font-bold text-primary mb-2">$625K</p>
               <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
@@ -224,7 +224,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <div className="bg-white rounded-lg shadow-lg p-10 text-center">
               <h3 className="text-xl font-semibold text-gray-700 mb-2">Aventura</h3>
               <p className="text-3xl font-bold text-primary mb-2">$485K</p>
               <p className="text-sm text-gray-600 mb-4">Median Sale Price</p>
@@ -235,7 +235,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="bg-accent-light rounded-lg p-8 max-w-3xl mx-auto text-center">
+          <div className="bg-accent-light rounded-lg p-10 max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-4">The Truth About Today's Market</h3>
             <p className="text-lg text-gray-700 mb-4">
               Homes priced right sell in <span className="font-bold text-primary">21 days</span> on average.
@@ -255,7 +255,7 @@ export default function Home() {
             <p className="text-center text-lg mb-8">
               No sugar-coating. Just honest analysis and a clear path to selling your home.
             </p>
-            <form onSubmit={handleSubmit} className="bg-white rounded-lg p-8 text-gray-900">
+            <form onSubmit={handleSubmit} className="bg-white rounded-lg p-10 text-gray-900">
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
