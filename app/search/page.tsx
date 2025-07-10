@@ -6,7 +6,6 @@ import SearchBar from "@/components/SearchBar";
 import SearchResults from "@/components/SearchResults";
 import PropertyMap from "@/components/PropertyMap";
 import { searchProperties } from "@/services/propertyService";
-import TopHeader from "@/components/TopHeader";
 
 function SearchContent() {
   const searchParams = useSearchParams();
@@ -61,9 +60,7 @@ function SearchContent() {
   };
 
   return (
-    <>
-      <TopHeader />
-      <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen">
         <SearchBar
           filters={filters}
           onFilterChange={handleFilterChange}
@@ -143,7 +140,6 @@ function SearchContent() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 
