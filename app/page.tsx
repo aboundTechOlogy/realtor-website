@@ -46,24 +46,55 @@ export default function Home() {
                 John Smith Realty
               </h1>
               <p className="text-xl text-gray-200">
-                Your Trusted South Florida Real Estate Expert - Updated
+                Your Trusted South Florida Real Estate Expert
               </p>
             </div>
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex justify-center">
               <ul className="flex items-center gap-8">
-                {navItems.map((item) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      className="text-white font-medium hover:text-accent transition-colors relative group"
-                    >
-                      {item.label}
-                      <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link href="/" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    HOME
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    ABOUT
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/market-insights" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    MARKET INSIGHTS
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/areas" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    AREAS
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/search" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    PROPERTY SEARCH
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/listings" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    LISTINGS
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contact" className="text-white font-medium hover:text-accent transition-colors relative group">
+                    CONTACT
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all"></span>
+                  </Link>
+                </li>
               </ul>
             </nav>
             
@@ -85,17 +116,41 @@ export default function Home() {
             {isMenuOpen && (
               <div className="md:hidden mt-4 bg-white rounded-lg p-4">
                 <ul className="space-y-2">
-                  {navItems.map((item) => (
-                    <li key={item.href}>
-                      <Link
-                        href={item.href}
-                        className="block py-2 text-primary hover:text-accent transition-colors"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        {item.label}
-                      </Link>
-                    </li>
-                  ))}
+                  <li>
+                    <Link href="/" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      HOME
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      ABOUT
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/market-insights" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      MARKET INSIGHTS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/areas" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      AREAS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/search" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      PROPERTY SEARCH
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/listings" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      LISTINGS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="block py-2 text-primary hover:text-accent transition-colors" onClick={() => setIsMenuOpen(false)}>
+                      CONTACT
+                    </Link>
+                  </li>
                 </ul>
               </div>
             )}
