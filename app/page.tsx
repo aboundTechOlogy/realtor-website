@@ -53,13 +53,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/market-insights#consultation"
-                className="inline-block bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors"
+                className="inline-block bg-primary text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-primary-dark transition-colors"
               >
                 Get Your Free Market Reality Check
               </Link>
               <Link
                 href="/listings"
-                className="inline-block bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+                className="inline-block bg-white text-primary px-10 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
               >
                 View Office Listings
               </Link>

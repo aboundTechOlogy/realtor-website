@@ -100,7 +100,7 @@ export default function Footer() {
             </p>
             <Link
               href="/market-insights#consultation"
-              className="inline-block bg-accent text-navy px-6 py-3 rounded hover:bg-accent-light transition-colors font-semibold"
+              className="inline-block bg-accent text-navy px-8 py-3 rounded hover:bg-accent-light transition-colors font-semibold"
             >
               Schedule Consultation
             </Link>
